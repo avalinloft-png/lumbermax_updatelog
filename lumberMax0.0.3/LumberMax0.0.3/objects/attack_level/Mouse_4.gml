@@ -28,8 +28,10 @@ var l3E739486_0;l3E739486_0 = mouse_check_button_pressed(mb_left);if (l3E73948
 		/// @DnDHash : 5D29833B
 		/// @DnDApplyTo : {Player_ob}
 		/// @DnDParent : 72F61751
+		/// @DnDArgument : "expr" "-1"
+		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "player_skillpoints"
 		with(Player_ob) {
-		player_skillpoints = 0;
+		player_skillpoints += -1;
 		
 		}}}
